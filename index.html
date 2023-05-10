@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/Logo@2x.png" alt="logo alura" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="ingresa-texto" cols="60" rows="10" placeholder="Ingrese su texto aqui"></textarea>
+            <div class="mensaje-vector">
+                
+                <h6 class="informacion"><img class="vector" src="img/Vector.png" alt=""> solo letras minusculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="21" rows="14" ></textarea>
+            <div>
+                <button class="copiar" onclick="copiaMensaje()">Copiar</button>
+            </div>
+            
+        </section>
+        
+    </main>
+    <footer>
+        <h6 class="rodapie">© Copyryght Cruz Emilson Caicedo Developer</h6>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
